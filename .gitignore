@@ -1,0 +1,19 @@
+# Netlify local state
+.netlify/
+
+# Never commit secrets
+.env
+.env.*
+*.pem
+*.key
+**/API Keys/
+*password*
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Old manual backups live in OneDrive, not here (git history replaces them)
+_backups/

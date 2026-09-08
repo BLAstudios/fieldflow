@@ -1,0 +1,9 @@
+# FieldFlow is a single static file. No build step.
+# Netlify publishes this folder as-is on every push to main.
+[build]
+  publish = "."
+  command = ""
+
+# Only main deploys to production. Branches get preview URLs, nothing live.
+[context.production]
+  environment = { }
